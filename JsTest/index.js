@@ -84,14 +84,15 @@ sayHi = sayHi.bind(obj); //привязывает к функции другой
 console.log(sayHi('Кирилл')) */
 
 
-let sayHi = function (name, age) {
+/* let sayHi = function (name, age) {
     console.log(this);
     this.name = name;
     this.age = age;
 }
 let obje = { name: 'Иван', age: 25, car: { name: 'Ford' } };
 sayHi.call(obje, "Петр", 36); //apply принимает массив аргументов, а call поштучно
-console.log(obje)
+console.log(obje) */
+
 
 //самовызывающиеся функции
 
